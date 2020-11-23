@@ -1,0 +1,47 @@
+body {
+  display: grid;
+  grid-template-columns: 57px 150px 150px 57px;
+  width: 100%;
+}
+header {
+  grid-column: 2 / 4;
+}
+.hero {
+  display: inline-block;
+  width: 100%;
+  grid-column: 2 / 4;
+}
+.services {
+  display: inline-block;
+  grid-column: 2 / 4;
+}
+.services-ar1 {
+}
+.services-ar2 {
+}
+.services-ar3 {
+}
+.services-text {
+}
+.freelance {
+  display: inline-block;
+  grid-column: 2 / 4;
+}
+.testimonials {
+  display: inline-block;
+  grid-column: 2 / 4;
+}
+.testimonials-ar1 {
+}
+.testimonials-ar2 {
+}
+.testimonials-text {
+}
+footer {
+  display: inline-block;
+  grid-column: 2 / 4;
+}
+nav {
+  display: inline-block;
+  grid-column: 2 / 4;
+}
