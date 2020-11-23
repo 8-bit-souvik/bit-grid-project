@@ -4,10 +4,21 @@ body {
   width: 100%;
 }
 header {
-  display: inline-block;
   grid-column: 2 / 4;
+  display: grid;
   width: 100%;
   height: 50px;
+  grid-template-areas:
+    ". c c ."
+    ". c c .";
+}
+.logo {
+  display: inline-block;
+  grid-column: 2 / 4;
+  width: 120px;
+  grid-area: c;
+  align-self: center;
+  justify-self: center;
 }
 .hero {
   display: grid;
@@ -44,6 +55,7 @@ header {
 }
 .services-text {
   justify-content: center;
+  font-size: 17px;
 }
 .freelance {
   display: grid;
@@ -64,7 +76,7 @@ header {
 .testimonials {
   display: inline-block;
   grid-column: 2 / 4;
-  background-col/or: rgb(98, 98, 224);
+  /* background-color: rgb(98, 98, 224); */
 }
 .testimonials > h2 {
   font-size: 20px;
@@ -84,6 +96,7 @@ header {
 }
 .testimonials-text {
   justify-content: center;
+  font-size: 17px;
 }
 footer {
   grid-column: 2 / 4;
